@@ -82,7 +82,7 @@ function NftList() {
 			<div className='slider'>
 				
 				<div ref={sliderRef} className='nftCard-wrapper'>
-					<div style={{width: fieldWidth, transform: `translateX(${offset}px)`, transition: "transform 0.3s ease"} } className="slider-wrapper">
+					<div style={{width: fieldWidth, transform: `translateX(${offset}px)`} } className="slider-wrapper">
 						{assets.map((item, i) => (
 							< NftCard id={i} key={i} nftName={item.onchain_metadata.name} quantity={item.quantity} img={item.onchain_metadata.image} cardWidth={slideCardWidth}/>
 						))}
