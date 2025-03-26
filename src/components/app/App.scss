@@ -1,0 +1,148 @@
+.App {
+	background-color: #1D1B32;
+	text-align: center;
+	min-height: 100vh;
+	max-width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	.container {
+		display: block;
+		max-width: 1200px;
+		padding: 0 30px;
+		margin: 0px auto;
+		margin-top: 4%;
+
+		.wallet {
+			color: white;
+			font-size: 50px;
+			text-transform: uppercase;
+
+		}
+
+		.greeting {
+			color: white;
+			font-size: 40px;
+			text-transform: uppercase;
+		}
+	}
+
+
+
+}
+
+.spinner {
+	margin-top: 25%;
+}
+
+.error {
+	width: 50%;
+	margin-left: 25%;
+
+}
+
+.error_text {
+	margin-top: 10%;
+	text-align: center;
+	font-size: 25px;
+	color: red;
+}
+
+@media (max-width: 1920px) {
+	.App {
+		.container {
+			margin-top: 0%;
+		}
+	}
+
+}
+
+@media (max-width: 1240px) {
+	.App {
+		.container {
+			max-width: 900px;
+		}
+	}
+
+}
+
+@media (max-width: 992px) {
+	.App {
+		.container {
+			max-width: 700px;
+		}
+	}
+
+}
+
+@media (max-width: 768px) {
+	.App {
+		.container {
+			max-width: 500px;
+
+			.wallet {
+				font-size: 35px;
+			}
+
+			.greeting {
+				font-size: 30px;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 576px) {
+	.App {
+		.container {
+			.wallet {
+				font-size: 25px;
+			}
+
+			.greeting {
+				font-size: 20px;
+			}
+
+			max-width: 400px;
+		}
+	}
+
+}
+
+
+@media (max-width: 440px) {
+	.App {
+		.container {
+			.wallet {
+				font-size: 25px;
+			}
+
+			.greeting {
+				font-size: 20px;
+			}
+
+			max-width: 350px;
+		}
+	}
+
+}
+
+@media (max-width: 376px) {
+	.App {
+		.container {
+			max-width: 300px;
+
+			.wallet {
+				font-size: 20px;
+			}
+
+			.greeting {
+				font-size: 17px;
+			}
+
+			max-width: 300px;
+		}
+	}
+
+}

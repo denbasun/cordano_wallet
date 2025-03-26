@@ -1,0 +1,125 @@
+.total_ballance {
+    position: relative;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #373542;
+    border-radius: 15px;
+    width: 70%;
+    height: 300px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    .blur {
+        position: absolute;
+        display: block;
+        border-radius: 100%;
+        z-index: 1;
+        filter: blur(80px);
+
+        &_blue {
+            background-color: #4A37E1;
+            top: 10px;
+            height: 60%;
+            width: 20%;
+        }
+
+        &_pink {
+            background-color: #BA55D6;
+            top: 20px;
+            left: 5%;
+            height: 80%;
+            width: 40%;
+        }
+
+        &_yellow {
+
+            background-color: #FFE8BA;
+            right: 5%;
+            height: 40%;
+            width: 30%;
+        }
+    }
+
+    .wrapper {
+        height: 50%;
+        z-index: 2;
+
+        .header {
+            color: #A7A7A7;
+            font-size: 45px;
+
+        }
+
+        .quantity {
+            color: #FFFFFF;
+            font-size: 60px;
+
+        }
+    }
+
+    .wrapper_quantitty {
+        position: absolute;
+        height: 50%;
+        z-index: 2;
+        left: 20px;
+        bottom: -110px;
+        font-size: 20px;
+        color: white;
+
+    }
+
+}
+
+@media (max-width: 1920px) {
+    .total_ballance {
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .total_ballance {
+        .wrapper {
+            .header {
+                font-size: 35px;
+
+            }
+
+            .quantity {
+                font-size: 60px;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .total_ballance {
+        .wrapper {
+            .header {
+                font-size: 25px;
+
+            }
+
+            .quantity {
+                font-size: 45px;
+
+            }
+        }
+
+        .wrapper_quantitty {
+            left: unset;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .total_ballance {
+        width: 100%;
+    }
+
+}
