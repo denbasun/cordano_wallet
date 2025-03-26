@@ -23,7 +23,7 @@ function App() {
             <h2 className="greeting">welcome</h2>
             <TotalBallnce></TotalBallnce>
             <Slider></Slider>
-        </div>s
+        </div>
         
     </div>
   );
